@@ -12,8 +12,10 @@ body {
 
 .header {
   background-image: url(img/8.jpg);
-  height: 200px;
+  height: 400px;
+  /* aspect-ratio: 1; */
   background-size: cover;
+  background-repeat: no-repeat;
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
@@ -25,7 +27,9 @@ body {
   }
 }
 .header h1 {
+  font-size: 4rem;
   margin: 1dvh;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
 }
 .nav-links a {
   color: #c3e7f3;
@@ -82,6 +86,6 @@ main section {
   text-align: center;
   margin: 0.5rem;
 }
-.gallery-item:nth-of-type(2) {
+/* .gallery-item:nth-of-type(2) {
   border: 2px solid red;
-}
+} */
