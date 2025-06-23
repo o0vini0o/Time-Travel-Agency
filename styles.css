@@ -46,9 +46,6 @@ body {
   display: flex;
   margin: 1rem;
   gap: 1rem;
-  @media (width<=600px) {
-    margin: 0;
-  }
 }
 main {
   padding: 2rem;
@@ -115,6 +112,17 @@ nav.footer {
   .gallery {
     display: flex;
     flex-wrap: wrap;
+  }
+  .header h1 {
+    margin: 0.5rem auto;
+    text-align: center;
+    font-size: 3rem;
+  }
+  header ul {
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+    margin: 0;
   }
 }
 .gallery-item:nth-of-type(6) {
